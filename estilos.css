@@ -1,12 +1,16 @@
 {
-    box-sizing: border-box;
+    box-sizing: border-box; 
     margin: 0;
     padding: 0;
 }
 
-.cabecalho {
-    padding: 15px 25px;
-}
+.cabecalho { 
+  padding: 15px 25px;
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  background-color: rgb(209, 174, 127);
+} 
 
 .cartao {
     width: 260px;
@@ -14,20 +18,17 @@
 }
 
 .cartao-imagem {
-    width: 100%;
-
-}
+    width: 100%;}
 
  body { 
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-
- }
+    min-height: 100vh;}
 
  main  {
     flex: 1;
  }
 
+ 
 
  
